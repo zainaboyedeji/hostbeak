@@ -1,0 +1,107 @@
+.signUp {
+    width: 100%;
+
+    .hero {
+        width: 50%;
+
+        img {
+            height: 100vh;
+        }
+
+        .bottomText {
+            position: absolute;
+            height: 172px;
+            left: 20%;
+            right: 28%;
+            top: calc(48% - 172px/2 + 248px);
+            font-family: 'Poppin Regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 43px;
+            letter-spacing: -1px;
+            color: #FFFFFF;
+            /* subtle shadow1 */
+            text-shadow: 0px 32px 84px rgba(29, 41, 63, 0.06);
+        }
+    }
+
+    .createAccount {
+        width: 50%;
+
+        h3 {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 110%;
+            /* Mezech Blue */
+            color: #272262;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 110%;
+            color: rgba(40, 44, 64, 0.6);
+        }
+
+        .formDiv {
+            form {
+                .bottomDiv {
+                    .rememberMe {
+                        label {
+                            input {
+                                width: 18px;
+                                height: 18px;
+                                background: red;
+                                border: 1px solid #D8D8D8;
+                                border-radius: 20px;
+                            }
+
+                            span {
+                                font-weight: 500;
+                                font-size: 16px;
+                                color: rgba(130, 134, 154, 0.6);
+                            }
+                        }
+                    }
+
+                    .forgotPassword {
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #3DB0FF;
+                    }
+                }
+
+                .buttonDiv {
+                    .signUp {
+                        height: 60px;
+                        color: white;
+                        font-weight: 600;
+                        font-size: 20px;
+                        background-color: #3DB0FF;
+                        border-radius: 8px;
+                    }
+                }
+            }
+
+            .gotAnAccount {
+                .line {
+                    margin-top: 0.5rem;
+                    width: 120.21px;
+                    height: 1px;
+                    background: rgba(196, 196, 196, 0.5);
+                }
+
+                p {
+                    font-size: 16px;
+
+                    a {
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #3DB0FF;
+                    }
+                }
+            }
+        }
+    }
+}
