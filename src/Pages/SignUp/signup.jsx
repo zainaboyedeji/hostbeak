@@ -1,6 +1,10 @@
 import ogo from "../../Images/ogoluwa.png";
 import AppInput from "../../Components/AppInput/appInput";
 import AppButton from "../../Components/AppButton/appButton";
+import {
+
+    Link
+} from "react-router-dom";
 import "./signup.scss";
 
 function SignUp() {
@@ -16,13 +20,13 @@ function SignUp() {
                 <div className="mt-7 formDiv">
                     <form>
                         <div className="flex w-full justify-between">
-                           <div className="w-2/5"> <AppInput label="First Name" type="text" arialabel="Firstname" placeholder="Enter your first name" htmlFor="Firstname"/></div>
-                           <div className="w-2/5"> <AppInput label="Last Name" type="text" arialabel="Lastname" placeholder="Enter your last name" htmlFor="Lastname"/></div>
+                            <div className="w-2/5"> <AppInput label="First Name" type="text" arialabel="Firstname" placeholder="Enter your first name" htmlFor="Firstname" /></div>
+                            <div className="w-2/5"> <AppInput label="Last Name" type="text" arialabel="Lastname" placeholder="Enter your last name" htmlFor="Lastname" /></div>
                         </div>
-                        <AppInput label="Phone Number" type="number" arialabel="Phonenumber" placeholder="Enter your phone number" htmlFor="Phonenumber"/>
+                        <AppInput label="Phone Number" type="number" arialabel="Phonenumber" placeholder="Enter your phone number" htmlFor="Phonenumber" />
 
                         <AppInput label="Email Address" type="text" arialabel="Emailaddress" placeholder="Enter your email address" htmlFor="Emailaddress" />
-                        <AppInput label="Password" type="password" arialabel="Password" placeholder="Enter your password" htmlFor="Password"/>
+                        <AppInput label="Password" type="password" arialabel="Password" placeholder="Enter your password" htmlFor="Password" />
 
                         <div className="flex items-center justify-between mt-10 bottomDiv">
                             <div className="rememberMe">
@@ -35,17 +39,15 @@ function SignUp() {
                                 Forgot Password?
                             </a>
                         </div>
+                        <Link to="/dashboard" className="buttonDiv"> <AppButton title="Sign Up" className="signUp" /> </Link>
 
-                        <div className="buttonDiv mt-8">
-                           <AppButton title="Sign Up" className="signUp"/> 
-                           </div>
                     </form>
                     <div className="mt-10 flex gotAnAccount justify-between w-full">
-                        <div className="line"/>
+                        <div className="line" />
                         <p>
                             Got an Account? <a href="signin">Sign In</a>
                         </p>
-                        <div className="line"/>
+                        <div className="line" />
                     </div>
                 </div>
             </div>
