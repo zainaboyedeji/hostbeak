@@ -20,13 +20,13 @@ function SignUp() {
                 <div className="mt-7 formDiv">
                     <form>
                         <div className="flex w-full justify-between">
-                            <div className="w-2/5"> <AppInput label="First Name" type="text" arialabel="Firstname" placeholder="Enter your first name" htmlFor="Firstname" /></div>
-                            <div className="w-2/5"> <AppInput label="Last Name" type="text" arialabel="Lastname" placeholder="Enter your last name" htmlFor="Lastname" /></div>
+                            <div className="w-2/5"> <AppInput className="inputField mt-5" inputClass="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 leading-tight focus:outline-none" labelClassName="block text-gray-700 text-sm font-bold mb-2" label="First Name" type="text" arialabel="Firstname" placeholder="Enter your first name" htmlFor="Firstname" /></div>
+                            <div className="w-2/5"> <AppInput className="inputField mt-5" inputClass="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 leading-tight focus:outline-none" labelClassName="block text-gray-700 text-sm font-bold mb-2" label="Last Name" type="text" arialabel="Lastname" placeholder="Enter your last name" htmlFor="Lastname" /></div>
                         </div>
-                        <AppInput label="Phone Number" type="number" arialabel="Phonenumber" placeholder="Enter your phone number" htmlFor="Phonenumber" />
+                        <AppInput className="inputField mt-5" inputClass="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 leading-tight focus:outline-none" labelClassName="block text-gray-700 text-sm font-bold mb-2" label="Phone Number" type="number" arialabel="Phonenumber" placeholder="Enter your phone number" htmlFor="Phonenumber" />
 
-                        <AppInput label="Email Address" type="text" arialabel="Emailaddress" placeholder="Enter your email address" htmlFor="Emailaddress" />
-                        <AppInput label="Password" type="password" arialabel="Password" placeholder="Enter your password" htmlFor="Password" />
+                        <AppInput className="inputField mt-5" inputClass="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 leading-tight focus:outline-none" labelClassName="block text-gray-700 text-sm font-bold mb-2" label="Email Address" type="text" arialabel="Emailaddress" placeholder="Enter your email address" htmlFor="Emailaddress" />
+                        <AppInput className="inputField mt-5" inputClass="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 leading-tight focus:outline-none" labelClassName="block text-gray-700 text-sm font-bold mb-2" label="Password" type="password" arialabel="Password" placeholder="Enter your password" htmlFor="Password" />
 
                         <div className="flex items-center justify-between mt-10 bottomDiv">
                             <div className="rememberMe">
